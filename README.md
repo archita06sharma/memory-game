@@ -13,7 +13,16 @@ A simple, interactive memory card game built using **HTML**, **CSS**, and **Java
 - 📱 **Responsive Design**
 
 ## 📷 Game Preview
-*(Add screenshot here later if you want.)*
+
+Here are some screenshots of the Memory Match Game in action:
+
+![Home Screen (Light Mode)](images/home-screen-light-mode.png)
+![Home Screen (Dark Mode)](images/home-screen-dark-mode.png)
+![Gameplay Easy](images/gameplay-easy.png)
+![Gameplay Medium](images/gameplay-medium.png)
+![Gameplay Hard (Dark Mode)](images/gameplay-hard-dark-mode.png)
+![Victory Screen](images/victory-screen.png)
+
 
 ## 🚀 How to Play
 1. Select a level.
