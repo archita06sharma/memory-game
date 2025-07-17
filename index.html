@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory Card Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon/card-game.ico">
+</head>
+<body>
+
+    <div id="theme-toggle-container">
+        <button id="theme-toggle-btn" title="Toggle Day/Night Theme">🌙</button>
+    </div>
+
+
+    <div id="level-selection">
+        <h1> 🧩 Memory Match 🧩</h1>
+        <h2>Select Level</h2>
+        <button id="easy-btn">Easy (3 pairs)</button>
+        <button id="medium-btn">Medium (6 pairs)</button>
+        <button id="hard-btn">Hard (10 pairs)</button>
+    </div>
+
+    
+    <div id="game-area" style="display: none;">
+    
+        <h1>🧩 Memory Match 🧩</h1>
+        <div class="button-group">
+            <button id="restart-btn">Restart Game</button>  
+            <button id="choose-level-btn-in-game">Choose Level</button>  
+        </div>
+        <div id="game-stats">
+            <div id="move-counter">Moves: 0</div>
+            <div id="timer">Time: 0 sec</div>
+            <div id="progress-container">
+                <div id="progress-bar"></div>
+            </div>
+        </div>
+
+    <div class="game-board"></div>
+</div>
+
+<div id="victory-modal" class="modal hidden">
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="modal-content">
+        <h2>🎉 Congratulations! 🎉</h2>
+        <p>You completed the game!</p>
+        <p id="stats-message"></p>
+        <button id="play-again-btn">Play Again</button>
+        <button id="choose-level-btn">Choose Level</button>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
